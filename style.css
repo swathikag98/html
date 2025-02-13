@@ -1,0 +1,101 @@
+
+body{
+    background-image: url("https://img.freepik.com/premium-vector/modern-pastel-colorful-gradient-abstract-background_768131-298.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h1 {
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+h2 {
+    color: brown;
+    font-style: italic;
+    text-decoration: underline;
+}
+.container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    overflow-y: auto;
+    max-height: 80vh; /* Adjust the height as needed */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 2px solid #f35757;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+td {
+    padding: 10px;
+}
+input[type="text"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="radio"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+label {
+    margin-right: 15px;
+}
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+       
+    }
+    input[type="button"] {
+        background-color: #4CAF50;
+       
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="button"]:hover {
+        background-color: #45a049;
+    }
+    .left-align {
+        float: left;
+        margin-left: 950px; /* Optional: Adds some space to the right of the image */
+    }
